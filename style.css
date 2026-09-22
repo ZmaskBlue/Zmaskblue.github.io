@@ -1,16 +1,16 @@
 #titlediv{
-    width: 1520px;
+    width: 100%vh;
     height: 200px;
     background-color: aqua;
     align-content: center;
     justify-items: center;
+    
 }
 #titletext{
     font-size: 80px;
 }
 body{
     background-color:darkgrey;
-
 }
 p{
     text-align: center;
