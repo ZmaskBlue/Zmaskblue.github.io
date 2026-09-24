@@ -1,17 +1,44 @@
 #titlediv{
     width: 100%vh;
-    height: 200px;
-    background-color: aqua;
+    height: 100px;
+    background-color: darkslategray;
+    color: lime;
     align-content: center;
     justify-items: center;
     
 }
 #titletext{
-    font-size: 80px;
+    font-size: 40px;
+}
+#projectviddiv{
+    width: 800px;
+    height:400px;
+    justify-content: center;
+}
+#projectviddiv{
+    width: 800px;
+    height:auto;
+    src:"";
+}
+h1{
+    color:white;
+    align-content: center;
+}
+h3{
+    color: white;
+    align-content: center;
+}
+h5{
+    color: white;
+    align-content: center;
 }
 body{
-    background-color:darkgrey;
+    background-color:black;
 }
 p{
     text-align: center;
+    color: white;
+}
+hr{
+    background-color: limegreen;
 }
