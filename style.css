@@ -7,30 +7,66 @@
     justify-items: center;
     
 }
+#buttonholder{
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.ytbutton{
+    border: none;
+    background: none;
+    outline:none;
+
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #007bff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+.ytbutton:hover{
+    background-color: #0056b3;
+    transform: scale(1.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.ytbutton:active{
+    transform: scale(1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}    
 #titletext{
     font-size: 40px;
 }
 #projectviddiv{
-    width: 800px;
-    height:400px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
-#projectviddiv{
-    width: 800px;
-    height:auto;
-    src:"";
+#projectviddiv iframe{
+    width: min(356px, 100%);
+    aspect-ratio: 9 / 16;
+    border: 0;
 }
-h1{
-    color:white;
-    align-content: center;
-}
-h3{
-    color: white;
-    align-content: center;
-}
-h5{
-    color: white;
-    align-content: center;
+#recentprojectdiv{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    color: lime;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
 }
 body{
     background-color:black;
